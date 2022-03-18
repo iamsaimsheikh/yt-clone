@@ -1,0 +1,11 @@
+.video-thumbnail-container {
+  width: 25vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-thumbnail {
+  width: 25vw;
+}

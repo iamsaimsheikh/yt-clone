@@ -1,0 +1,70 @@
+.upload-form {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6vw;
+}
+
+.upload-form p {
+  color: #fcfcfc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 17vw;
+  text-align: left;
+  font-size: small;
+}
+
+.upload-form .tag {
+  width: fit-content;
+  height: 1vh;
+  font-size: x-small;
+}
+
+.upload-form .tag:hover {
+  background-color: #ffffff5f;
+  transition-duration: 0.5s;
+}
+
+.upload-tag-container {
+  height: fit-content;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.form-button-container {
+  width: 17vw;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-button-container button {
+  height: 5vh;
+  width: 7vw;
+  font-weight: 500;
+  background-color: red;
+  margin-block-start: 0px;
+  transform: translateY(-10px);
+  margin-bottom: 20px;
+  border: #c4302b;
+  color: #fcfcfc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.upload-form .tag-selected {
+  background-color: #ffffff5f;
+}
+
+hr {
+  width: 17vw;
+  margin-top: 20px;
+  border: 1px solid #212121;
+}

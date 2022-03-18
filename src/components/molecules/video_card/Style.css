@@ -1,0 +1,18 @@
+.video-card {
+  height: 35vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.video-card-image {
+  height: 25vh;
+  width: 25vw;
+}
+
+.video-card-time {
+  transform: translateY(-10px);
+}

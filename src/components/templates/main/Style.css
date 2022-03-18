@@ -1,0 +1,26 @@
+.home-template-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-nav-col {
+  height: 100vh;
+}
+
+.flex-box-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-section-col {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 0;
+}
+
+.flex-section-col * {
+  z-index: 5;
+}

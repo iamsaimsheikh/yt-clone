@@ -1,0 +1,50 @@
+.side-nav {
+  position: absolute;
+  height: 100vh;
+  width: 6vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+  z-index: 10;
+}
+
+.side-nav-active {
+  position: absolute;
+  height: 90vh;
+  width: 15vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+  z-index: 10;
+}
+
+.side-nav-active .side-nav-icon-container {
+  flex-direction: row;
+  width: 12vw;
+  justify-content: flex-start;
+}
+
+.side-nav-active .side-nav-icon-container span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.side-nav-active * {
+  z-index: 10;
+}
+
+.side-nav-active a {
+  text-decoration: none;
+}
+
+.side-nav * {
+  z-index: 10;
+}
+
+.side-nav a {
+  text-decoration: none;
+}

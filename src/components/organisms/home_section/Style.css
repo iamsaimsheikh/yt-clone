@@ -1,0 +1,67 @@
+.home-section-container {
+  height: 100vh;
+  width: 94vw;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 6vw;
+  z-index: 0;
+}
+
+.home-section-container .video-card {
+  height: 37vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.video-card-container {
+  width: 94vw;
+  height: 100vh;
+  display: flex;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start !important;
+  overflow: scroll;
+}
+
+.spacer {
+  width: 94vw;
+  height: 10vh;
+}
+
+.home-section-container .video-card-title {
+  transform: translateY(+25px);
+}
+
+.home-section-container .video-card-time {
+  transform: translateY(+20px);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

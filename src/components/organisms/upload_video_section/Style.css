@@ -1,0 +1,48 @@
+.upload-video-container {
+  height: 90vh;
+  width: 120vw;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 6vw;
+  overflow: scroll;
+  z-index: 0;
+}
+
+.upload-video-container .side-nav-icon-container {
+  width: 200px;
+  height: 150px;
+}
+
+.upload-video-container .side-nav-icon {
+  width: 12vw;
+  height: 12vh;
+  color: #cccccc;
+}
+
+.upload-video-container span {
+  font-size: medium;
+  color: #cccccc;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  margin-right: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
